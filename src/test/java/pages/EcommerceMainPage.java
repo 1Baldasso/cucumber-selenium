@@ -14,7 +14,6 @@ public class EcommerceMainPage extends EcommerceMainPageElementMap {
     }
 
     public boolean isPesquisaRetornouResultados(){
-        return !lblQtdResultadosEncontrados.getText().contains("0");
+        return lblQtdResultadosEncontrados.isDisplayed();
     }
-
 }

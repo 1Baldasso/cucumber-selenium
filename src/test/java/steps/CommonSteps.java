@@ -7,7 +7,7 @@ public class CommonSteps {
 
     @Dado("que acesso o ecommerce")
     public void acessarEcommerce(){
-        String ecommerceUrl = "http://automationpractice.com";
+        String ecommerceUrl = "https://automationexercise.com/products";
         TestRule.abrirNavegador(ecommerceUrl);
     }
 
